@@ -15,6 +15,15 @@
         android:layout_centerInParent="true"
         android:layout_margin="36dp">
 
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            app:srcCompat="@mipmap/resto"/>
+
         <EditText
             android:layout_margin="10dp"
             android:layout_width="match_parent"
@@ -45,7 +54,7 @@
             android:textColor="@color/colorPrimary"
             android:textAllCaps="false"
             android:background="@drawable/button_rectangle"
-            />
+            android:id="@+id/loginButton"/>
         
         <ProgressBar
             android:layout_margin="10dp"
@@ -53,7 +62,8 @@
             android:layout_height="wrap_content"
             android:indeterminateTint="#ffff"
             android:id="@+id/loginProgress"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:visibility="gone"/>
 
     </LinearLayout>
 

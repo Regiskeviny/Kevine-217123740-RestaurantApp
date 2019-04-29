@@ -1,3 +1,49 @@
 <resources>
     <string name="app_name">RestaurantApp</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Kevine Muhoza</string>
+    <string name="nav_header_subtitle">(250) 784 105 766</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="titles">
+        <item> Recipe 1</item>
+        <item> Recipe 2</item>
+        <item> Recipe 3</item>
+        <item> Recipe 4</item>
+        <item> Recipe 5</item>
+        <item> Recipe 6</item>
+        <item> Recipe 7</item>
+        <item> Recipe 8</item>
+        <item> Recipe 9</item>
+        <item> Recipe 10</item>
+    </string-array>
+
+    <string-array name="description">
+        <item> 4500 Rwf 30min </item>
+        <item> 2000 Rwf 10min </item>
+        <item> 4900 Rwf 15min </item>
+        <item> 9000 Rwf 45min  </item>
+        <item> 4900 Rwf 15min  </item>
+        <item> 5000 Rwf 15min  </item>
+        <item> 2500 Rwf 25min  </item>
+        <item> 4000 Rwf 30min  </item>
+        <item> 6000 Rwf 25min  </item>
+        <item> 10000 Rwf 40min </item>
+    </string-array>
+
+    <string-array name="dishesTitles">
+        <item> Dish 1</item>
+        <item> Dish 2</item>
+        <item> Dish 3</item>
+        <item> Dish 4</item>
+        <item> Dish 5</item>
+        <item> Dish 6</item>
+        <item> Dish 7</item>
+        <item> Dish 8</item>
+        <item> Dish 9</item>
+        <item> Dish 10</item>
+
+    </string-array>
 </resources>

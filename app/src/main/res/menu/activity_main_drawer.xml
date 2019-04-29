@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_dish"
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:title="Add Dish" />
+        <item
+            android:id="@+id/view_dishes"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="View Dishes" />
+        <item
+            android:id="@+id/add_recipe"
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:title="Add Recipe" />
+        <item
+            android:id="@+id/view_recipes"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="View Recipes" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_person_outline_black_24dp"
+                android:title="Change Profile" />
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_fingerprint_black_24dp"
+                android:title="Chnage Password" />
+
+        </menu>
+    </item>
+
+</menu>
